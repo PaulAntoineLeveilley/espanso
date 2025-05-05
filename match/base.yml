@@ -36,8 +36,20 @@ matches:
   - trigger : ":xp"
     replace : "^"
 
-  - trigger : ":ec"
+  - trigger : ":exp"
     replace : "ê" 
+
+  - trigger : ":oxp"
+    replace : "ô"
+
+  - trigger : ":or"
+    replace : "|"
+  
+  - trigger : ":eur"
+    replace : "€"
+
+  - trigger : ":di"
+    replace : "#"
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation
 
   # But matches can also be dynamic:
