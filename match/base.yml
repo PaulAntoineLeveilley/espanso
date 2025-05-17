@@ -36,11 +36,23 @@ matches:
   - trigger : ":xp"
     replace : "^"
 
+  - trigger : ":axp"
+    replace : "â"
+
   - trigger : ":exp"
     replace : "ê" 
 
+  - trigger : ":ixp"
+    replace : "î"
+
   - trigger : ":oxp"
     replace : "ô"
+
+  - trigger : ":uxp"
+    replace : "û"
+
+  - trigger : ":ou"
+    replace : "ù"
 
   - trigger : ":or"
     replace : "|"
@@ -50,6 +62,9 @@ matches:
 
   - trigger : ":di"
     replace : "#"
+
+  - trigger : ":btk"
+    replace : "`"
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation
 
   # But matches can also be dynamic:
