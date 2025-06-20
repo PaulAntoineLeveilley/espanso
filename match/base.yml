@@ -12,59 +12,59 @@ matches:
   - trigger: ":espanso"
     replace: "Hi there!"
 
-  - trigger : ":at"
-    replace : "@"
+  - trigger: ":at"
+    replace: "@"
 
-  - trigger : ":dl"
-    replace : "$"
+  - trigger: ":dl"
+    replace: "$"
 
-  - trigger : ":pc"
-    replace : "%"
+  - trigger: ":pc"
+    replace: "%"
 
-  - trigger : ":br"
-    replace : "Bien cordialement,\nPaul-Antoine Leveilley"
+  - trigger: ":br"
+    replace: "Bien cordialement,\nPaul-Antoine Leveilley"
 
-  - trigger : ":pa"
-    replace : "Paul-Antoine"
+  - trigger: ":pau"
+    replace: "Paul-Antoine"
 
-  - trigger : ":pl"
-    replace : "Paul-Antoine Leveilley"
+  - trigger: ":pl"
+    replace: "Paul-Antoine Leveilley"
 
-  - trigger : ":lev"
-    replace : "Leveilley"
+  - trigger: ":lev"
+    replace: "Leveilley"
 
-  - trigger : ":xp"
-    replace : "^"
+  - trigger: ":xp"
+    replace: "^"
 
-  - trigger : ":axp"
-    replace : "â"
+  - trigger: ":axp"
+    replace: "â"
 
-  - trigger : ":exp"
-    replace : "ê" 
+  - trigger: ":exp"
+    replace: "ê"
 
-  - trigger : ":ixp"
-    replace : "î"
+  - trigger: ":ixp"
+    replace: "î"
 
-  - trigger : ":oxp"
-    replace : "ô"
+  - trigger: ":oxp"
+    replace: "ô"
 
-  - trigger : ":uxp"
-    replace : "û"
+  - trigger: ":uxp"
+    replace: "û"
 
-  - trigger : ":ou"
-    replace : "ù"
+  - trigger: ":ou"
+    replace: "ù"
 
-  - trigger : ":or"
-    replace : "|"
-  
-  - trigger : ":eur"
-    replace : "€"
+  - trigger: ":or"
+    replace: "|"
 
-  - trigger : ":di"
-    replace : "#"
+  - trigger: ":eur"
+    replace: "€"
 
-  - trigger : ":btk"
-    replace : "`"
+  - trigger: ":di"
+    replace: "#"
+
+  - trigger: ":btk"
+    replace: "`"
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation
 
   # But matches can also be dynamic:
@@ -88,3 +88,4 @@ matches:
           cmd: "echo 'Hello from your shell'"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
+
